@@ -1,0 +1,35 @@
+.form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.4);
+}
+
+.InputContainer {
+  display: flex;
+}
+
+.modernInput {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  display: inline-block;
+  outline: none;
+  border-bottom: 1px solid rgb(240, 102, 52);
+}
+
+.modernButton {
+  padding: 10px;
+  border: none;
+  background-color: #ff4500;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.modernButton:hover {
+  background-color: #f0602c;
+}
